@@ -1,0 +1,20 @@
+
+{	funcao inicio() 
+	{	
+		inteiro Mnumero,Mindice,Msoma,Mmedia
+		Msoma=0
+		Mindice=0
+		Msoma=0
+		Mmedia=0
+		
+		para (Mindice=1;Mindice<=5;Mindice++)
+		{     
+		     escreva("digite um numero:")
+		     leia(Mnumero)
+		     Msoma=Msoma+Mnumero
+		}
+		Mmedia=Msoma/5
+		escreva("A soma dos 5 numeros é:",Msoma)
+		escreva("\nA média dos 5 numeros é:",Mmedia)
+	}
+}
